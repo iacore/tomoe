@@ -1,0 +1,11 @@
+prefix=/usr/local
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+
+# for Python binding
+defsdir=${datadir}/tomoe/python
+
+Name: Python binding for Tomoe
+Description: Python binding for TOMOE
+Version: 0.6.0
+Requires: tomoe, pygobject-2.0
