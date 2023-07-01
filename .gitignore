@@ -6,3 +6,4 @@
 *.Tpo
 .libs
 .deps
+/data/handwriting.xml

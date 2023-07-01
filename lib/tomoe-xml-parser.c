@@ -440,8 +440,7 @@ _tomoe_xml_parser_parse_dictionary_file (const gchar *filename,
 
     f = fopen (filename, "rb");
     if (!f) {
-        g_warning ("failed to open dictionary file %s: %s", filename,
-                   sys_errlist[errno]);
+        g_warning ("failed to open dictionary file %s: %s", filename, strerror(errno));
     }
     g_return_val_if_fail (f, FALSE);
 

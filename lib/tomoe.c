@@ -26,7 +26,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <glib/garray.h>
+#include <glib.h>
 #include "tomoe.h"
 
 static gboolean initialized = FALSE;

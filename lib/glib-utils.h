@@ -28,7 +28,7 @@
 #include "config.h"
 #endif /* HAVE_CONFIG_H */
 
-#include <glib/garray.h>
+#include <glib.h>
 #include <glib/gi18n-lib.h>
 #include "glib-compat-file-utilities.h"
 #include "glib-compat-key-file.h"
